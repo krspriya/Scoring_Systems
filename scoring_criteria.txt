@@ -1,0 +1,34 @@
+ if row['HeartRate'] < 60 or row['HeartRate'] > 100:
+        score += 1
+    if row['SystolicBP'] < 90 or row['SystolicBP'] > 180:
+        score += 1
+    if row['DiastolicBP'] < 60 or row['DiastolicBP'] > 120:
+        score += 1
+    if row['RespiratoryRate'] < 12 or row['RespiratoryRate'] > 25:
+        score += 1
+    if row['BodyTemperature'] < 36.5 or row['BodyTemperature'] > 37.5:
+        score += 1
+    if row['SpO2'] < 90:
+        score += 1
+    if row['WBC'] < 4.0 or row['WBC'] > 11.0:
+        score += 1
+    if row['BloodGlucose'] < 70 or row['BloodGlucose'] > 140:
+        score += 1
+    if row['Hemoglobin'] < 12.0 or row['Hemoglobin'] > 17.5:
+        score += 1
+    if row['PlateletCount'] < 150 or row['PlateletCount'] > 450:
+        score += 1
+    if row['SerumCreatinine'] < 0.6 or row['SerumCreatinine'] > 1.3:
+        score += 1
+    if row['BUN'] < 7 or row['BUN'] > 20:
+        score += 1
+    if row['SerumSodium'] < 135 or row['SerumSodium'] > 145:
+        score += 1
+    if row['SerumPotassium'] < 3.5 or row['SerumPotassium'] > 5.0:
+        score += 1
+    if row['TotalCholesterol'] < 150 or row['TotalCholesterol'] > 240:
+        score += 1
+    if row['HDLCholesterol'] < 40 or row['HDLCholesterol'] > 60:
+        score += 1
+    if row['LDLCholesterol'] < 100 or row['LDLCholesterol'] > 160:
+        score += 1
